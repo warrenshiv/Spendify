@@ -1,0 +1,38 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true,
+    "baseUrl": ".",
+    "paths": {
+      "@/common/*": ["common/*"],
+      "@/context/*": ["context/*"],
+      "@/config/*": ["config/*"],
+      "@/routers/*": ["routers/*"],
+      "@/modules/*": ["modules/*"],
+      "@/helpers/*": ["helpers/*"],
+      "@/services/*": ["services/*"],
+      "@/website/*": ["website/*"],
+      "@/styles/*": ["styles/*"],
+      "@/public/*": ["public/*"]
+    }
+  },
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    "common/components/Sidebar/__sidebarDetails.js"
+  ],
+  "exclude": ["node_modules"]
+}
